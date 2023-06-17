@@ -1,0 +1,84 @@
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-hero-wrapper{
+ 
+padding: 40px;
+   position: relative;
+}
+.content-main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.vector-red{
+   position: absolute;
+   right:0;
+   top:0;
+  
+}
+
+
+.navbar-button{
+    z-index: 9999999;
+}
+
+.heading-main{
+   font-size: 3rem;
+   color: #0E2368;
+   line-height: 1.2;
+   margin-bottom: 20px;
+}
+.color-diff-best{
+    color:#E23744
+
+}
+
+
+.sub-header{
+    font-size: 18px;  
+    margin-bottom: 25px;  
+}
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    /* Your CSS styles for mobile screens */
+
+    .logo-truck{
+        display: none;
+    }
+    .left-content-main{
+       margin-top: 25rem;
+       text-align: center;
+       justify-content: center;
+    }
+
+    .image-wrapper{
+        display: flex;
+    }
+
+    .vector-red{
+      width: 100%;
+   
+    }
+
+    .image-red{
+        top:0;
+    }
+
+    .navbar-container{
+        justify-content: right;
+        align-items: center;
+    }
+  }
+  
+
+

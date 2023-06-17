@@ -1,0 +1,39 @@
+.card-img{
+    width: 100%; 
+    
+}
+
+.card-container{
+    width: 326px; 
+    height: 257px;
+
+
+}
+
+.heading-cart{
+    font-size: x-large;
+    font-weight: 700;
+    color:#0E2368; 
+    margin-top: 14px;
+}
+.desc-card{
+    margin-bottom: 20px;
+}
+
+.read-more-btn{
+    border: 1px solid grey;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.card-article{
+    border: 1px solid rgb(222, 222, 222);
+    width: 330px;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 20px;
+}
+
+

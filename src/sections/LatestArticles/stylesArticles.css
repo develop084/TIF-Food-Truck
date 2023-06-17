@@ -1,0 +1,58 @@
+.list-article-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    
+}
+.article-card-list{
+    margin-top: 80px;
+  
+}
+
+.head-1{
+    margin: 50px;
+    color: #0E2368;
+}
+button{
+    background: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-group{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.switch-btn{
+    width: 15px;
+    cursor: pointer;
+
+}
+
+.number-page{
+    text-align: center;
+    color: #0E2368;
+    margin: 0px 8px;
+}
+
+@media only screen and (max-width: 767px) {
+    /* Your CSS styles for mobile screens */
+   .list-article-wrapper{
+    flex-direction: column;
+    align-items: center;
+   }
+
+
+.article-card-list{
+    text-align: center;
+}
+
+  }

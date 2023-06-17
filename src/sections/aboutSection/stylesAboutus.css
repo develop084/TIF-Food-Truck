@@ -1,0 +1,35 @@
+.about-us-wrapper{
+    margin-top: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(90.07deg, rgba(30, 42, 93, 0.04) 30.91%, rgba(48, 62, 130, 0.04) 64.79%, rgba(60, 80, 157, 0.04) 91.94%);;
+}
+
+.right-section-text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px
+}
+
+
+.heading-about{
+    color : #0E2368
+}
+
+@media only screen and (max-width: 767px) {
+    /* Your CSS styles for mobile screens */
+    .about-us-wrapper{
+    margin-top: 0px;
+    text-align: center;
+    padding: 80px 10px;
+    font-size: small;
+    }
+   .image-wrapper-about{
+    display: none;
+   }
+.button-btm{
+    margin-top: 20px;
+}
+  }
